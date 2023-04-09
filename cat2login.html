@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" context="width=device-width, intial-scale=1">
+        <link rel="stylesheet" href="cat2login.css">
+    </head>
+    <body>
+        <h1>Welcome to my website!</h1>
+        <center><p>Please login or sign up to continue:</p></center>
+        <form action="cat2login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            <input type="submit" value="Login">
+        </form>
+        <center><p>Don't have an account yet?</p></center>
+        <button type="button" onclick="window.location.href='cat2signup.html'">Sign up</button>
+    </body>
+</html>
